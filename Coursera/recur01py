@@ -1,0 +1,8 @@
+def rec():
+    n = int(input())
+    if n:
+        rec()
+    print(n)
+
+
+rec()
