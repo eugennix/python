@@ -1,10 +1,10 @@
 # високосный год
-y = int(input())
-if y % 4:
-    print('NO')
-elif y % 100:
-    print('YES')
-elif y % 400:
-    print('NO')
+year = int(input())
+if year % 400 == 0:
+    print("YES")
+elif year % 100 == 0:
+    print("NO")
+elif year % 4 == 0:
+    print("YES")
 else:
-    print('YES')
+    print("NO")
